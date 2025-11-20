@@ -55,7 +55,7 @@ import {
 } from 'lucide-react';
 
 // --- Mock Data & Assets ---
-const HEADER_BACKGROUND_IMG = "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"; 
+const HEADER_BACKGROUND_IMG = "/mnt/data/スクリーンショット 2025-11-19 12.11.43.png"; 
 
 const NEWS_ITEMS = [
   { id: 1, date: '2025.11.20', content: 'Rakusumu Platformが完成しました！' },
