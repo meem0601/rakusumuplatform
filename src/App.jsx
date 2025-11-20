@@ -555,7 +555,7 @@ const Header = ({ username, onLogout, showBack, onBack }) => (
         </div>
     </div>
 
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 h-28 flex items-center justify-between relative z-10">
       <div className="flex items-center gap-2">
          {showBack && (
             <button onClick={onBack} className="p-1.5 -ml-1.5 rounded-full hover:bg-slate-100 transition-colors text-slate-500 mr-1" title="戻る">
