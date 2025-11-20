@@ -538,11 +538,11 @@ const FeedbackBox = () => (
 );
 
 const Header = ({ username, onLogout, showBack, onBack }) => (
-  <header className="bg-white border-b border-slate-200 sticky top-0 z-50 overflow-hidden relative">
-    <div className="absolute inset-0 pointer-events-none">
-        <div className="max-w-5xl mx-auto h-full relative">
+  <header className="bg-transparent border-b border-slate-200 sticky top-0 z-50 overflow-hidden relative">
+    <div className="absolute inset-0 pointer-events-none h-28">
+        <div className="max-w-5xl mx-auto h-28 relative">
              <div 
-                className="absolute inset-0 opacity-20" 
+                className="absolute inset-0 opacity-70" 
                 style={{ 
                     backgroundImage: `url(${HEADER_BACKGROUND_IMG})`, 
                     backgroundSize: 'cover', 
